@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev",
+    "fix": "eslint --fix \"**/*.{ts,tsx}\"",
+    "format": "prettier --write \"**/*.{json,md,ts,tsx}\"",
+    "start": "next start"
   },
   "dependencies": {
     "@types/node": "18.15.11",
